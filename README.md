@@ -38,22 +38,34 @@ df.head()
 
 ## Output:
 
+<img width="159" height="213" alt="image" src="https://github.com/user-attachments/assets/b9d6f3ba-c2b6-4c8a-b65b-41ca19343482" />
+
+
 ```
 df.tail()
 ```
 
+## Output:
+
+<img width="161" height="206" alt="image" src="https://github.com/user-attachments/assets/8c264026-01ec-42f3-9b55-e7d441168ce5" />
 
 ```
 x=df.iloc[:,:-1].values
 x
 ```
 
+## Output:
+
+<img width="149" height="489" alt="image" src="https://github.com/user-attachments/assets/1a1131ad-a8e8-4d41-b106-a4cbd6a338ca" />
 
 ```
 y=df.iloc[:,1].values
 y
 ```
 
+## Output:
+
+<img width="659" height="47" alt="image" src="https://github.com/user-attachments/assets/4649559e-1c97-4e7e-971c-96e8411dc83d" />
 
 ```
 from sklearn.model_selection import train_test_split
@@ -65,11 +77,17 @@ Y_pred=regressor.predict(X_test)
 Y_pred
 ```
 
+## Output:
+
+<img width="634" height="37" alt="image" src="https://github.com/user-attachments/assets/44d629e9-f02e-4477-923b-0fe275da9621" />
 
 ```
 Y_test
 ```
 
+## Output:
+
+<img width="403" height="26" alt="image" src="https://github.com/user-attachments/assets/d2711770-8007-4b50-9616-a6fe43f9c792" />
 
 ```
 print("Register Number: 212223100058")
@@ -100,6 +118,13 @@ rmse=np.sqrt(mse)
 print('RMSE = ',rmse)
 ```
 
+# Output
+
+<img width="667" height="546" alt="image" src="https://github.com/user-attachments/assets/87ae5412-2b9b-4e73-8813-e7b0f27184b0" />
+
+<img width="706" height="552" alt="image" src="https://github.com/user-attachments/assets/e32659a2-5e61-4549-936e-36c213971827" />
+
+<img width="309" height="126" alt="image" src="https://github.com/user-attachments/assets/be1bc462-f824-4604-bc7f-d7280fd4b143" />
 
 
 ## Result:
